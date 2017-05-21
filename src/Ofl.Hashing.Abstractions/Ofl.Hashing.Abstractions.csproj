@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <Description>Abstractions for working with hashes.</Description>
+    <AssemblyName>Ofl.Hashing.Abstractions</AssemblyName>
+    <PackageId>Ofl.Hashing.Abstractions</PackageId>
+    <PackageProjectUrl>https://github.com/OneFrameLink/Ofl.Hashing.Abstractions</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/OneFrameLink/Ofl.Hashing.Abstractions.git</RepositoryUrl>
+    <Version>1.0.0</Version>
+    <RootNamespace>Ofl.Hashing</RootNamespace>
+    <PackageTags>hashing</PackageTags>
+  </PropertyGroup>
+</Project>
