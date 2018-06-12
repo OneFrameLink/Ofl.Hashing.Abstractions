@@ -1,4 +1,3 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.7
@@ -10,6 +9,17 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofl.Hashing.Abstractions", "src\Ofl.Hashing.Abstractions\Ofl.Hashing.Abstractions.csproj", "{8C8EFC1E-E998-4D8E-91A6-26A8A5246475}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofl.Hashing.Abstractions.Tests", "test\Ofl.Hashing.Abstractions.Tests\Ofl.Hashing.Abstractions.Tests.csproj", "{229BF64D-5C7A-48AE-8BA7-23746303F0C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution-level items", "solution-level items", "{F8EFB7B7-8260-42E0-A1E8-3D39F235D21D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.gitmodules = .gitmodules
+		appveyor.yml = appveyor.yml
+		directory.build.props = directory.build.props
+		LICENSE = LICENSE
+		Ofl.Hashing.Abstractions.sln.DotSettings = Ofl.Hashing.Abstractions.sln.DotSettings
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -52,5 +62,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{8C8EFC1E-E998-4D8E-91A6-26A8A5246475} = {BA6D5D57-B720-4054-9B2A-DA53E7DEFD5B}
 		{229BF64D-5C7A-48AE-8BA7-23746303F0C3} = {CD6CF014-C4C2-40D0-856E-37B0E0285721}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {751600E1-1557-44DE-8BA1-7FF2084E4EF2}
 	EndGlobalSection
 EndGlobal

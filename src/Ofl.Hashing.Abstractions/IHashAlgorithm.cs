@@ -1,11 +1,13 @@
-﻿namespace Ofl.Hashing
+﻿using System;
+
+namespace Ofl.Hashing
 {
     public interface IHashAlgorithm
     {
         int HashSize { get; }
 
-        void TransformBlock(byte[] bytes, int offset, int count);
+        void TransformBlock(ReadOnlySpan<byte> bytes);
 
-        byte[] Hash { get; }
+        ref readonly ReadOnlyMemory<byte> Hash { get; }
     }
 }
