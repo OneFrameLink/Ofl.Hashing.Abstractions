@@ -11,7 +11,4 @@
     <PackageTags>hashing</PackageTags>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-  <ItemGroup>
-    <PackageReference Include="System.Memory" Version="4.5.3" />
-  </ItemGroup>
 </Project>
